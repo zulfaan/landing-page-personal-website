@@ -10,9 +10,3 @@ const closedBar = document.querySelector(".closed");
 closedBar.addEventListener("click", function() {
     listBar.classList.remove("active");
   });
-
-// closedBars.forEach(function(closedBar) {
-//   closedBar.addEventListener("click", function() {
-//     closedBar.classList.remove("active");
-//   });
-// });
