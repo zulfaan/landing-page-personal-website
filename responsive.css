@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1250px){
+    div.container{
+        justify-content: center;
+    }
+    div.container div.cardLong{
+        width: 40%;
+    }
+    div.container div.cardShort{
+        width: 30%;
+    }
+    div.container div.cardShort.cs-dif{
+        width: 47%;
+    }
+    div.container div.cardLong.web{
+        background-color: red;
+        width: 40%;
+    }
+    div.container div.cardLong.skills{
+        width: 100%;
+    }
+    div div.un-img ul.skill{
+        margin-left: 1rem;
+    }
+    div ul li.codes{
+        background-color: aqua;
+        margin: 0.5rem;
+    }
+}
+@media only screen and (max-width: 985px){
+    main div.container{
+        background-color: green;
+    }
+    div.container div.cardLong.profile, div.container div.cardLong.web{
+        width: 50%;
+    }
+    div.container div.cardLong.skills, div.container div.cardLong.connect{
+        width: 100%;
+        /* height: fit-content; */
+    }
+    div.container div.cardShort, div.container div.cardShort.cs-dif{
+        width: 47%;
+    }
+    div.container div.cardLong ul.skill{
+        height: fit-content;
+    }
+}
+@media (max-width:765px){
+    body{
+        position: relative;
+    }
+    /* Style header*/
+    header{
+        padding: 0.5rem 2rem;
+    }
+    header div.txt-logo{
+        display: none;
+    }
+    header .bx-x{
+        display: inline;
+    }
+    header div.list-header{
+        display: none;
+    }
+    header div.list-header{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+    header div.list-header ul{
+        flex-direction: column;
+    }
+    header div.list-header ul li{
+        margin: 1rem 0 1rem 2rem;
+    }
+    header div.list-header ul li i.bx{
+        float: right;
+        margin-right: 2rem;
+    }
+    header div.icon-list{
+        display: inline;
+    }
+    header div.icon-list i.bx-menu{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    main div.container{
+        padding: 1rem 2rem;
+    }
+    div.container div.cardLong, div.container div.cardLong.web, div.container div.cardLong.profile{
+        width: 100%;
+        flex-grow: 0;
+    }
+    div.container div.cardLong.skills{
+        width: 100%;
+        /* height: fit-content; */
+    }
+    div.container div.cardShort, div.container div.cardShort.cs-dif{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 490px){
+    div.container div.cardLong{
+        height: fit-content;
+    }
+    div div.un-img ul.skill{
+        gap: 1rem;
+        width: 90%;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+    div ul li.codes{
+        margin: 0;
+        width: max-content;
+    }
+    div div.un-img ul.skill li.codes img{
+        width: 5rem;
+        height: 5rem;
+    }
+}

@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+header h2{
+    font-family: 'Zeyada', cursive;
+}
+p, a{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+main h1, main h2, main h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Style header*/
+header .bx-x, div.icon-list{
+    display: none;
+}
+header{
+    background-color: #DAE2B6;
+    max-height: 3rem;
+    padding: 0.5rem 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    transition: all 0.5s ease;
+}
+header div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header div.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header div.icon-logo{
+    width: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    width: 100%;
+}
+header div.logo div.txt-logo{
+    margin-left: 1rem;
+    transition: all 0.5s ease;
+}
+header div.list-header ul{
+    display: flex;
+    flex-direction: row;
+}
+header div.list-header ul li{
+    margin: 0 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header div.list-header ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* Style main*/
+main .container{
+    background-color: #E1EEDD;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem 5rem;
+}
+.cardLong{
+    background-color: #FEFBE9;
+    width: 25%;
+    height: 18rem;
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    flex-grow: 1;
+}
+main div a{
+    color: black;
+}
+main div.cs-profile:hover a.arrow{
+    color: #F2CD5C;
+}
+main div.cs-project:hover a.arrow{
+    color: #3A98B9;
+}
+div.cs-profile:hover{
+    -webkit-box-shadow: 0 0 1.5rem #F2CD5C;
+    -moz-box-shadow: 0 0 1.5rem #F2CD5C;
+    box-shadow: 0 0 1.5rem #F2CD5C;
+}
+.cardShort{
+    background-color: #FEFBE9;
+    width: 25%;
+    height: 18rem;
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+.cs-white{
+    background-color: #FFFF;
+}
+.cs-brown{
+    background-color: #f4bd6f;
+}
+.cs-apricot{
+    background-color: #e99a7d;
+}
+div.cs-project:hover{
+    -webkit-box-shadow: 0 0 1.5rem #3A98B9;
+    -moz-box-shadow: 0 0 1.5rem #3A98B9;
+    box-shadow: 0 0 1.5rem #3A98B9;
+}
+div.img{
+    height: 75%;
+    width: 100%;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    overflow: hidden;
+}
+div div.img img#photoprofile{
+    margin: 1rem 1rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+}
+.title{
+    margin: 0 2rem;
+    line-height: 1.5;
+}
+div div.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.4rem 2rem;
+
+}
+div img.img-short{
+    width: 18rem;
+}
+div img.img-long{
+    width: 20rem;
+    position: relative;
+    top: -1rem;
+}
+div div.title p{
+    text-transform: uppercase;
+    word-spacing: 0.1rem;
+    letter-spacing: -0.05rem;
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+}
+
+div div.text h2.work, div.web div.text h2{
+    display: inline-block;
+    line-height: 1;
+}
+div div.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    cursor: default;
+}
+div div.connect div.title h2{
+    margin-top: 2rem;
+    font-weight: 500;
+}
+div div.connect div.text p{
+    width: 70%;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bolder;
+}
+div div.socmed ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+div div.socmed ul li span{
+    border-radius: 50%;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #8fa382;
+    color: #FFFF;
+}
+div div.socmed ul li span.instagram:hover{
+    background-color: #FF7A89;
+}
+div div.socmed ul li span.linkedin:hover{
+    background-color: #0077B5;
+}
+div div.socmed ul li span.github:hover{
+    background-color: #0D1117;
+}
+div div.socmed ul li span.mail:hover{
+    background-color: #DB4437;
+}
+div div.skills{
+    cursor: default;
+}
+.un-text{
+    margin: 2rem 2rem 0 1.5rem;
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+div div.un-img ul.skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+div ul li.codes{
+    list-style: none;
+    margin: 3% 5%;
+    width: max-content;
+}
+div ul li.codes img{
+    width: 6rem;
+    height: 6rem;
+}
