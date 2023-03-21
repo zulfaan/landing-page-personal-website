@@ -64,6 +64,12 @@ header div.list-header ul li a{
     text-decoration: none;
     color: black;
 }
+header div.list-header ul li a.download-resume{
+    background-color: #8fa382;
+    color: #FFFF;
+    padding: 0.1rem 1rem;
+    border-radius: 0.8rem;
+}
 /* Style main*/
 main .container{
     background-color: #E1EEDD;
@@ -83,6 +89,7 @@ main .container{
     padding-bottom: 2rem;
     cursor: pointer;
     flex-grow: 1;
+    transition: all 0.8s ease;
 }
 main div a{
     color: black;
@@ -107,6 +114,7 @@ div.cs-profile:hover{
     border-radius: 2rem;
     padding-bottom: 2rem;
     cursor: pointer;
+    transition: all 0.8s ease;
 }
 .cs-white{
     background-color: #FFFF;

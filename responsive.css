@@ -12,7 +12,6 @@
         width: 47%;
     }
     div.container div.cardLong.web{
-        background-color: red;
         width: 40%;
     }
     div.container div.cardLong.skills{
@@ -22,20 +21,17 @@
         margin-left: 1rem;
     }
     div ul li.codes{
-        background-color: aqua;
         margin: 0.5rem;
     }
 }
 @media only screen and (max-width: 985px){
     main div.container{
-        background-color: green;
     }
     div.container div.cardLong.profile, div.container div.cardLong.web{
         width: 50%;
     }
     div.container div.cardLong.skills, div.container div.cardLong.connect{
-        width: 100%;
-        /* height: fit-content; */
+        width: 100%
     }
     div.container div.cardShort, div.container div.cardShort.cs-dif{
         width: 47%;
@@ -61,13 +57,16 @@
     header div.list-header{
         display: none;
     }
+    /*menu bar active*/
     header div.list-header{
-        position: absolute;
+        background-color: #DAE2B6;
+        position: fixed;
         right: 0;
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: red;
+        z-index: 999;
+        transition: all 0.8s step-start;
     }
     header div.list-header ul{
         flex-direction: column;
@@ -78,6 +77,14 @@
     header div.list-header ul li i.bx{
         float: right;
         margin-right: 2rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    header div.list-header.active{
+        display: block;
+    }
+    header div.list-header ul li a{
+        padding: 0.1rem 1rem;
     }
     header div.icon-list{
         display: inline;
@@ -95,7 +102,6 @@
     }
     div.container div.cardLong.skills{
         width: 100%;
-        /* height: fit-content; */
     }
     div.container div.cardShort, div.container div.cardShort.cs-dif{
         width: 100%;

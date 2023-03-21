@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/logo zulfa.png" type="image/x-icon">
-    <title>It's Zulfa Nurfajar</title>
+    <title>Zulfa Nurfajar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -26,19 +26,19 @@
             </div>
             <div class="list-header">
                 <ul>
-                    <li><i class='bx bx-x'></i></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><i class='bx bx-x closed'></i></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a class="download-resume" href="resume/Zulfa Nurfajar_CV.pdf" download="Zulfa Nurfajar_CV">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="icon-list">
-                <i class='bx bx-menu' ></i>
+                <i class='bx bx-menu open' ></i>
             </div>
         </div>
     </header>
     <main>
-        <div class="container">
+        <div id="home" class="container">
             <div class="cardLong profile cs-profile">
                 <div class="img">
                     <img id="photoprofile" src="images/profile.png" alt="icon-profile">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="text">
                     <h2 class="work">See My Resume</h2>
-                    <a class="arrow" href="#">
+                    <a class="arrow" href="resume/Zulfa Nurfajar_CV.pdf" download="Zulfa Nurfajar_CV">
                         <i class='bx bx-right-arrow-circle bx-md'></i>
                     </a>
                 </div>
@@ -123,7 +123,7 @@
                     </a>
                 </div>
             </div>
-            <div class="cardLong connect cs-profile">
+            <div id="contact" class="cardLong connect cs-profile">
                 <div class="title">
                     <h2>Let's Work Together</h2>
                 </div>
@@ -135,8 +135,8 @@
                 </div>
                 <div class="socmed">
                     <ul>
-                        <li><a href="http://" target="_blank" rel="noopener noreferrer"><span class='bx bxl-instagram bx-md instagram'></span></a></li>
-                        <li><a href="http://" target="_blank" rel="noopener noreferrer"><span class='bx bxl-linkedin bx-md linkedin' ></span></a></li>
+                        <li><a href="https://www.instagram.com/wksacth/" target="_blank" rel="noopener noreferrer"><span class='bx bxl-instagram bx-md instagram'></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/nama-profil/zulfanurfajar" target="_blank" rel="noopener noreferrer"><span class='bx bxl-linkedin bx-md linkedin' ></span></a></li>
                         <li><a href="https://github.com/zulfaan/" target="_blank" rel="noopener noreferrer"><span class='bx bxl-github bx-md github' ></span></a></li>
                         <li><a href="mailto:znurfajar@gmail.com"><span class='bx bx-envelope bx-md mail' ></span></a></li>
                         <a href="http://" target="_blank" rel="noopener noreferrer"></a>
@@ -161,5 +161,6 @@
         </div>
     </main>
     <footer></footer>
+    <script src="menu.js"></script>
 </body>
 </html>
